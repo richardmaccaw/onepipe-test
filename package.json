@@ -1,0 +1,25 @@
+{
+  "name": "onepipe-test",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.19",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.8.3",
+    "wrangler": "^4.22.0"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.7.0",
+    "@maccman/web-auth-library": "^1.0.5",
+    "hono": "^4.8.3",
+    "lodash": "^4.17.21",
+    "uuid": "^11.1.0",
+    "web-auth-library": "^1.0.3",
+    "zod": "^3.25.67"
+  }
+}
